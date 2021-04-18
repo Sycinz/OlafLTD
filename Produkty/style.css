@@ -129,7 +129,7 @@ input.list {
 
 .main__image {
   background: url("../images/Banne_v3r.jpg");
-  background-size: 100% 25vh;
+  background-size: 100% 16rem;
   background-repeat: no-repeat;
   object-fit: cover;
   width: 100%;
