@@ -8,7 +8,7 @@
 body, html {
   background: white;
   height: 100vh;
-  width: 100vw;
+  max-width: 100vw;
   color: white;
   font-family: Lato, "sans-serif";
   display: flex;
@@ -155,6 +155,17 @@ input.list {
   text-transform: none;
 }
 
+.main__article_form_input::placeholder {
+  opacity: 0.5;
+  font-weight: normal;
+}
+
+.main__article_form_submit {
+  padding: 1% 2% 1% 2%;
+  border: 0.15rem solid #7d7d7d;
+  border-radius: 0.3rem;
+}
+
 .button {
   color: #7d7d7d;
   background: white;
@@ -221,8 +232,8 @@ footer.container .container__item2 {
 
 .mobile-wrapper {
   position: absolute;
-  top: 50%;
-  left: 5%;
+  top: 0%;
+  left: 0%;
   width: 0;
   height: 0;
   visibility: hidden;

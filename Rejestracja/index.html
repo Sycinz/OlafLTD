@@ -48,22 +48,23 @@
 </main>
     
         <div class="main__article">
-            <div class="main__article_form">
+            <form class="main__article_form" action="adduser.php" method="post">
+
                 <div class="main__article_form_inputs">
             
                     <div class="main__article_form_text">E-mail</div>
-                    <input class="main__article_form_input"type="text">
+                    <input class="main__article_form_input" type="text" placeholder="Jan.Kowalski@gmail.com" name="login">
                 </div>
                 <div class="main__article_form_inputs">
                     <div class="main__article_form_text">Hasło</div>
-                    <input class="main__article_form_input" type="password">
+                    <input class="main__article_form_input" type="password" placeholder="Hasło" name="password">
                 </div>
                 <div class="main__article_form_inputs">
                     <div class="main__article_form_text">Powtórz hasło</div>
-                    <input class="main__article_form_input" type="password">
+                    <input class="main__article_form_input" type="password" placeholder="Hasło" name="passwordSecond">
                 </div>
-                <button class="button">Zarejestruj się</button>
-            </div>
+                <input type="submit" value="Zarejestruj się" class="main__article_form_submit">
+            </form>
         </div>
 
     <footer class="container">

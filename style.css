@@ -6,7 +6,7 @@
 }
 
 body, html {
-  background: white;
+  background: #f3f3f3;
   color: white;
   font-family: Lato, "sans-serif";
   display: flex;
@@ -49,6 +49,10 @@ input {
   color: #7d7d7d;
   padding: 0px 8px;
   text-transform: uppercase;
+}
+
+input:active {
+  border: none;
 }
 
 input.list {
@@ -105,11 +109,11 @@ input.list {
 
 section.container {
   display: flex;
-  height: 107.5vh;
+  height: 110vh;
   width: 60%;
   flex-direction: column;
   align-items: center;
-  background: #d7d7d7;
+  background: white;
 }
 
 .item1 {
@@ -151,7 +155,7 @@ section.container {
   z-index: 2;
   border: 0.5px #7d7d7d solid;
   background: transparent;
-  height: 24vh;
+  height: 25vh;
   width: 100%;
   margin-bottom: 2%;
   padding: 0;
@@ -209,13 +213,15 @@ section.container {
 }
 
 .item2__container {
-  position: relative;
+  position: absolute;
   display: flex;
   flex-direction: column;
   overflow: auto;
   z-index: 2;
+  right: 0;
+  top: 0;
   max-height: 100%;
-  width: 100%;
+  width: 50%;
   padding: 1.5%;
 }
 
@@ -240,11 +246,11 @@ section.container {
 }
 
 .item2__photo {
-  position: relative;
-  width: 80%;
-  height: 25vh;
-  left: 0;
+  position: absolute;
   top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
   z-index: 1;
 }
 

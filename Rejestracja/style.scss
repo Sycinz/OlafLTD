@@ -3,7 +3,7 @@
 body, html {
     background: white;
     height: 100vh;
-    width: 100vw;
+    max-width: 100vw;
 
     color: white;
     font-family: $Font;
@@ -150,6 +150,16 @@ input {
             border: 1px solid $Gray2;
             border-radius: 2px;
             text-transform: none;
+
+            &::placeholder {
+                opacity: 0.5;
+                font-weight: normal;
+            }
+        }
+        &_submit {
+            padding: 1% 2% 1% 2%;
+            border: 0.15rem solid $Gray2;
+            border-radius: 0.3rem;
         }
     }
 }
@@ -226,8 +236,8 @@ footer.container {
 
 .mobile-wrapper {
     position: absolute;
-    top: 50%;
-    left: 5%;
+    top: 0%;
+    left: 0%;
     width: 0;
     height: 0;
     visibility: hidden;

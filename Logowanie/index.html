@@ -42,24 +42,24 @@
         <input type="button" onclick="location.href='../Produkty/index.html'" class="list" value="|  Produkty  |" />
         <input type="button" onclick="location.href='../Maszyny/index.html'" class="list" value="|  Maszyny  |" />
         <input type="button" onclick="location.href='../Serwis/index.html'" class="list" value="|  Serwis  |" />
-        <input type="button" onclick="location.href='../Kontakt/index.html'" class="list" value="|  Kontakt  |" />
+        <input type="button" onclick="location.href='../Kontakt/index.html'" class="list" value="|  NIEKontakt  |" />
         </div>
     </main>
 </main>
 
+
     <div class="main__article">
-        <div class="main__article_form">
-            <div class="main__article_form_inputs">
-        
-        <div class="main__article_form_text">E-mail</div>
+        <form class="main__article_form" action="check.php" method="post">
+        <div class="main__article_form_inputs">
+            <div class="main__article_form_text">E-mail</div>
             <input class="main__article_form_input"type="text">
         </div>
             <div class="main__article_form_inputs">
                 <div class="main__article_form_text">Hasło</div>
-            <input class="main__article_form_input" type="password">
-        </div>
-            <button>Zaloguj się</button>
-        </div>
+                <input class="main__article_form_input" type="password">
+            </div>
+        <button>Zaloguj się</button>
+        </form>
     </div>
 
     <footer class="container">

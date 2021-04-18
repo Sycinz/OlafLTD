@@ -1,7 +1,7 @@
 @import "../__variables.scss";
 
 body, html {
-    background: white;
+    background: rgb(243, 243, 243);
     height: 100vh;
     width: 100vw;
 
@@ -33,7 +33,7 @@ nav {
 
     font-size: 1rem;
     color: $blue;
-
+    
     .nav__text {
         order: 5;
         font-size: 0.85em;
@@ -61,6 +61,7 @@ input {
     text-transform: uppercase;
 
     &.list {
+        background: transparent;
         order: 2;
         border: none;
     }
@@ -122,7 +123,7 @@ input {
     background: $lightGray;
     color: white;
     display: grid;
-    grid-template: 40% 1fr / 1fr;
+    grid-template: 0.4fr 1fr / 1fr;
     
     &_text {
         width: 100%;
@@ -132,8 +133,10 @@ input {
         padding: 2% 5% 2% 5%;
     }
     &_banner {
+        object-fit: cover;
+        object-position: 0 -4rem;
         width: 100%;
-        height: 100%;
+        height: 25vh;
     }
 }
 
