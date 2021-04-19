@@ -6,27 +6,12 @@
 }
 
 body, html {
-  background: #f3f3f3;
-  height: 100vh;
-  width: 100vw;
-  color: white;
-  font-family: Lato, "sans-serif";
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-main.container-main {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
+  overflow-x: hidden;
 }
 
 nav {
   height: 8vh;
+  width: 70%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -46,7 +31,7 @@ nav .nav__text {
 }
 
 #nav_logo {
-  margin-right: 1.8%;
+  margin: 0 1rem 0 0;
 }
 
 input {
@@ -63,6 +48,20 @@ input.list {
   background: transparent;
   order: 2;
   border: none;
+}
+
+input.list__login {
+  border: none;
+  background: transparent;
+  order: 5;
+}
+
+input.list:hover {
+  cursor: pointer;
+}
+
+input.list:active {
+  outline-width: 5rem;
 }
 
 #icon {
@@ -115,6 +114,27 @@ input.list {
 
 #icon-text2 {
   order: 9;
+}
+
+body, html {
+  background: #f3f3f3;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  color: white;
+  font-family: Lato, "sans-serif";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main.container-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
 }
 
 .main__article {

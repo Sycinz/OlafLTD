@@ -213,10 +213,6 @@ nav {
     }
 }
 
-#nav_logo {
-    margin-right: 1.8%;
-} 
-
 .scroller {
     display: flex;
     flex-direction: column;
@@ -229,12 +225,7 @@ nav {
 }
 
 #ig {
-    background: -webkit-linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    background-clip: text;
-    -webkit-text-fill-color: white;
-    margin: 0 0 30% 0;
-    border-radius: 40%;
-    // color: rgb(136, 27, 68);
+    background-image: url();
 }
 
 #fb {
@@ -259,11 +250,7 @@ input {
 
     text-transform: uppercase;
 
-    &.list {
-        background: transparent;
-        order: 2;
-        border: none;
-    }
+    
 }
 
 #icon {

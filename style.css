@@ -6,6 +6,117 @@
 }
 
 body, html {
+  overflow-x: hidden;
+}
+
+nav {
+  height: 8vh;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 1% 2.5% 1% 2.5%;
+  font-size: 1rem;
+  color: #333367;
+}
+
+nav .nav__text {
+  order: 5;
+  font-size: 0.85em;
+  font-weight: bold;
+  color: #7d7d7d;
+  padding: 10px 8px;
+}
+
+#nav_logo {
+  margin: 0 1rem 0 0;
+}
+
+input {
+  background: white;
+  line-height: 20px;
+  font-weight: bold;
+  font-size: 1em;
+  color: #7d7d7d;
+  padding: 0px 8px;
+  text-transform: uppercase;
+}
+
+input.list {
+  background: transparent;
+  order: 2;
+  border: none;
+}
+
+input.list__login {
+  border: none;
+  background: transparent;
+  order: 5;
+}
+
+input.list:hover {
+  cursor: pointer;
+}
+
+input.list:active {
+  outline-width: 5rem;
+}
+
+#icon {
+  margin-bottom: 20px;
+}
+
+#icon1 {
+  order: 3;
+  padding: 5px 15px;
+  margin-right: 10px;
+  background-image: url("../images/poland.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25px 15px;
+}
+
+#icon2 {
+  order: 4;
+  padding: 5px 18px;
+  background-image: url("../images/english.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25px 15px;
+}
+
+#icon3 {
+  order: 6;
+  padding: 15px 18px;
+  background-image: url("../images/phone-icon2.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+#icon4 {
+  order: 8;
+  padding: 15px 18px;
+  margin-left: 10px;
+  background-image: url("../images/letter-icon2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 52.5px 28px;
+}
+
+#icon-text1 {
+  order: 6;
+  padding: 0 15px 0 0;
+  font-size: 1em;
+}
+
+#icon-text2 {
+  order: 9;
+}
+
+body, html {
   background: #f3f3f3;
   color: white;
   font-family: Lato, "sans-serif";
