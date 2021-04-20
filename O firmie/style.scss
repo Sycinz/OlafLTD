@@ -1,7 +1,7 @@
 @import "../__variables.scss";
 
 body, html {
-    background: rgb(243, 243, 243);
+    background: $background;
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
@@ -34,8 +34,8 @@ main.container-main {
     &_text {
         width: 100%;
         height: 100%;
-        font-size: 2.5rem;
-        color: red;
+        font-size: 2rem;
+        color: $Gray2;
         padding: 2% 5% 2% 5%;
     }
     &_banner {

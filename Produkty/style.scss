@@ -28,13 +28,13 @@ main.container-main {
     display: grid;
     grid-template: 0.29fr 1fr / 0.2fr 1fr;
     grid-gap: 2%;
-    padding: 1%;
+    // padding: 1%;
     background: $lightGray;
 }
 
 .main__image {
     background: url("../images/Banne_v3r.jpg");
-    background-size: 100% 16rem;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     object-fit: cover;
     width: 100%;
@@ -51,6 +51,7 @@ main.container-main {
     background: rgb(175, 69, 69);
     border: 0.2rem solid black;
     padding: 3% 5% 3% 5%;
+    margin: 0 2% 2% 0;
 
     &_header {
         // background: coral;
@@ -63,6 +64,7 @@ main.container-main {
 }
 
 .main__timeline {
+    margin: 0 0 10% 10%;
     border: 0.2rem solid black;
     background: rgb(55, 55, 180);
 }
@@ -126,8 +128,8 @@ footer.container {
 
 .mobile-wrapper {
     position: absolute;
-    top: 50%;
-    left: 5%;
+    top: 0%;
+    left: 0%;
     width: 0;
     height: 0;
     visibility: hidden;

@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  filter: opacity(1);
   font-family: Lato, "sans-serif";
 }
 
@@ -31,11 +32,13 @@ nav .nav__text {
 }
 
 #nav_logo {
+  filter: opacity(1);
   margin: 0 1rem 0 0;
 }
 
 #nav_logo:hover {
   cursor: pointer;
+  filter: opacity(0.7);
 }
 
 input {
@@ -61,11 +64,13 @@ input.list__login {
 }
 
 input.list__login:hover {
+  filter: opacity(0.7);
   cursor: pointer;
 }
 
 input.list:hover {
   cursor: pointer;
+  filter: opacity(0.7);
 }
 
 input.list:active {
@@ -150,13 +155,12 @@ main.container-main {
   display: grid;
   grid-template: 0.29fr 1fr / 0.2fr 1fr;
   grid-gap: 2%;
-  padding: 1%;
   background: #d7d7d7;
 }
 
 .main__image {
   background: url("../images/Banne_v3r.jpg");
-  background-size: 100% 16rem;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   object-fit: cover;
   width: 100%;
@@ -172,6 +176,7 @@ main.container-main {
   background: #af4545;
   border: 0.2rem solid black;
   padding: 3% 5% 3% 5%;
+  margin: 0 2% 2% 0;
 }
 
 .main__article_header {
@@ -183,6 +188,7 @@ main.container-main {
 }
 
 .main__timeline {
+  margin: 0 0 10% 10%;
   border: 0.2rem solid black;
   background: #3737b4;
 }
@@ -242,8 +248,8 @@ footer.container .container__item2 {
 
 .mobile-wrapper {
   position: absolute;
-  top: 50%;
-  left: 5%;
+  top: 0%;
+  left: 0%;
   width: 0;
   height: 0;
   visibility: hidden;
