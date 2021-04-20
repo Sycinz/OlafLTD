@@ -34,6 +34,10 @@ nav .nav__text {
   margin: 0 1rem 0 0;
 }
 
+#nav_logo:hover {
+  cursor: pointer;
+}
+
 input {
   background: white;
   line-height: 20px;
@@ -54,6 +58,10 @@ input.list__login {
   border: none;
   background: transparent;
   order: 5;
+}
+
+input.list__login:hover {
+  cursor: pointer;
 }
 
 input.list:hover {
@@ -117,7 +125,7 @@ input.list:active {
 }
 
 body, html {
-  background: white;
+  background: rgba(194, 194, 194, 0.342);
   height: 100vh;
   max-width: 100vw;
   overflow-x: hidden;
@@ -135,31 +143,6 @@ main.container-main {
   align-items: center;
   justify-content: center;
   width: 100vw;
-}
-
-nav {
-  height: 8vh;
-  width: 70%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  margin: 1% 2.5% 1% 2.5%;
-  font-size: 1rem;
-  color: #333367;
-}
-
-nav .nav__text {
-  order: 5;
-  font-size: 0.85em;
-  font-weight: bold;
-  color: #7d7d7d;
-  padding: 10px 8px;
-}
-
-#nav_logo {
-  margin-right: 1.8%;
 }
 
 input {

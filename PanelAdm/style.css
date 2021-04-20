@@ -34,6 +34,10 @@ nav .nav__text {
   margin: 0 1rem 0 0;
 }
 
+#nav_logo:hover {
+  cursor: pointer;
+}
+
 input {
   background: white;
   line-height: 20px;
@@ -54,6 +58,10 @@ input.list__login {
   border: none;
   background: transparent;
   order: 5;
+}
+
+input.list__login:hover {
+  cursor: pointer;
 }
 
 input.list:hover {

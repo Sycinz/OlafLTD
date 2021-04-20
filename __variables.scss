@@ -45,7 +45,10 @@ nav {
 
 #nav_logo {
     margin: 0 1rem 0 0;
-} 
+    &:hover {
+        cursor: pointer;
+    }
+}
 
 input {
     background: white;
@@ -68,6 +71,9 @@ input {
             border: none;
             background: transparent;
             order: 5;
+            &:hover {
+                cursor: pointer;
+            }
         }
         &:hover {
             cursor: pointer;
