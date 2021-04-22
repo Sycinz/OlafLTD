@@ -38,7 +38,7 @@ nav .nav__text {
 
 #nav_logo:hover {
   cursor: pointer;
-  filter: opacity(0.7);
+  filter: opacity(0.5);
 }
 
 input {
@@ -55,12 +55,14 @@ input.list {
   background: transparent;
   order: 2;
   border: none;
+  transition: filter 0.5s ease;
 }
 
 input.list__login {
   border: none;
   background: transparent;
   order: 5;
+  transition: filter 0.3s ease;
 }
 
 input.list__login:hover {
@@ -71,10 +73,6 @@ input.list__login:hover {
 input.list:hover {
   cursor: pointer;
   filter: opacity(0.7);
-}
-
-input.list:active {
-  outline-width: 5rem;
 }
 
 #icon {

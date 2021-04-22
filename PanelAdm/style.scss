@@ -1,7 +1,7 @@
 @import "../__variables.scss";
 
 body, html {
-    background: white;
+    background: $background;
     height: 100vh;
     width: 100vw;
 
@@ -21,102 +21,6 @@ main.container-main {
 
     width: 100vw;
 }
-nav {
-    height: 8vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-
-    margin: 1% 2.5% 1% 2.5%;
-
-    font-size: 1rem;
-    color: $blue;
-
-    .nav__text {
-        order: 5;
-        font-size: 0.85em;
-        font-weight: bold;
-        color: $Gray2;
-
-        padding: 10px 8px;
-    }
-}
-
-#nav_logo {
-    margin-right: 1.8%;
-} 
-
-input {
-    background: white;
-    line-height: 20px;
-
-    font-weight: bold;
-    font-size: 1em;
-    color: $Gray2;
-
-    padding: 0px 8px;
-
-    text-transform: uppercase;
-
-    &.list {
-        order: 2;
-        border: none;
-    }
-}
-
-#icon {
-    margin-bottom: 20px;
-}
-
-#icon1 {
-    order: 3;
-    padding: 5px 15px;
-    margin-right: 10px;
-    background-image: url("images/poland.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 25px 15px;
-}
-
-#icon2 {
-    order: 4;
-    padding: 5px 18px;
-    background-image: url("images/english.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 25px 15px;
-}
-
-#icon3 {
-    order: 6;
-    padding: 15px 18px;
-    background-image: url("images/phone-icon2.png");
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: 30px 30px;
-}
-#icon4 {
-    order: 8;
-    padding: 15px 18px;
-    margin-left: 10px;
-    background-image: url("images/letter-icon2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 52.5px 28px;
-}
-
-#icon-text1 {
-    order: 6;
-    padding: 0 15px 0 0;
-    font-size: 1em;
-}
-#icon-text2 {
-    order: 9;
-}
-
 .main__article {
     width: 60%;
     min-height: 100vh;
@@ -138,16 +42,17 @@ input {
         border-right: 2px solid $Gray;
         padding: 15% 0 0 0;
         &_input {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
             border-radius: 0.5rem;
             border: 2px solid $Gray2;
             margin: 0 0 20% 0;
             height: 2.5rem;
             width: 12rem;
-            transition: box-shadow 0.3s ease;
+            transition: 1s ease;
             &:hover {
                 cursor: pointer;
-                box-shadow: 2px 2px 8px black;
+                border: 2px solid rgb(194, 194, 194);
+                color: rgb(194, 194, 194);
             }
         }
     }
@@ -157,11 +62,7 @@ input {
         grid-gap: 5%;
         font-size: 2rem;
         margin: 2% 1% 2% 5%;
-        // &_container {
-        //     background: white;
-        //     width: 90%;
-        //     height: 100%;
-        // }
+        
         &_input {
             text-transform: none;
             font-size: 2rem;

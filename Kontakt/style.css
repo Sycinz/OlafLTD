@@ -38,7 +38,7 @@ nav .nav__text {
 
 #nav_logo:hover {
   cursor: pointer;
-  filter: opacity(0.7);
+  filter: opacity(0.5);
 }
 
 input {
@@ -55,12 +55,14 @@ input.list {
   background: transparent;
   order: 2;
   border: none;
+  transition: filter 0.5s ease;
 }
 
 input.list__login {
   border: none;
   background: transparent;
   order: 5;
+  transition: filter 0.3s ease;
 }
 
 input.list__login:hover {
@@ -71,10 +73,6 @@ input.list__login:hover {
 input.list:hover {
   cursor: pointer;
   filter: opacity(0.7);
-}
-
-input.list:active {
-  outline-width: 5rem;
 }
 
 #icon {
@@ -304,49 +302,27 @@ input[type=text] {
   text-transform: unset;
 }
 
-nav {
-  width: 100%;
-  height: 8vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
-  margin: 1% 2.5% 0.5% 2.5%;
-  font-size: 1rem;
-  color: #333367;
-}
-
-nav .nav__text {
-  order: 5;
-  font-size: 0.85em;
-  font-weight: bold;
-  color: #7d7d7d;
-  padding: 10px 8px;
-}
-
 .scroller {
+  width: 2%;
+  height: 2%;
   display: flex;
   flex-direction: column;
   font-size: 3rem;
   position: fixed;
   right: 0.5%;
   top: 50%;
-  transform: translateY(-50%);
 }
 
 #ig {
-  background-image: url();
+  color: #ff64b1;
 }
 
 #fb {
   color: #282892;
-  margin: 0 0 30% 0;
-  -webkit-text-fill-color: transparent;
+  margin: 0.4rem 0 0.4rem 0;
 }
 
 #wa {
-  -webkit-text-fill-color: transparent;
   color: #13a313;
 }
 

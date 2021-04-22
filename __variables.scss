@@ -48,10 +48,11 @@ nav {
 #nav_logo {
     filter: opacity(1);
     margin: 0 1rem 0 0;
+    
 
     &:hover {
         cursor: pointer;
-        filter: opacity(0.7);
+        filter: opacity(0.5);
     }
 }
 
@@ -71,11 +72,14 @@ input {
         background: transparent;
         order: 2;
         border: none;
+        transition: filter 0.5s ease;
 
         &__login {
             border: none;
             background: transparent;
             order: 5;
+            transition: filter 0.3s ease;
+
             &:hover {
                 filter: opacity(0.7);
                 cursor: pointer;
@@ -85,9 +89,9 @@ input {
             cursor: pointer;
             filter: opacity(0.7);
         }
-        &:active {
-            outline-width: 5rem;
-        }
+        // &:active {
+        //     outline-width: 5rem;
+        // }
     }
 }
 
