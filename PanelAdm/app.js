@@ -25,7 +25,6 @@ function Teksty() {
     label.className = "main__article_item2_Teksty_label";
     label.htmlFor = "numbers";
     label.textContent = "Numer tekstu:";
-    label.style.fontSize = "1.6rem";
 
     // options
     options.option1.textContent = "1";
