@@ -173,13 +173,15 @@ main.container-main {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: 5%;
   background-color: #3563b9;
 }
 
 .main__article_item3_input {
   background: white;
   text-transform: none;
+  width: 100%;
+  height: 4%;
+  border: 3px solid #3563b9;
 }
 
 footer.container {

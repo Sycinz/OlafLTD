@@ -241,7 +241,7 @@ input.list {
 .main__article_form_inputs {
   display: flex;
   flex-direction: column;
-  margin: 0 0 3% 0;
+  margin: 0 0 4% 0;
   color: #7d7d7d;
   font-size: 1.1rem;
 }
@@ -252,6 +252,8 @@ input.list {
   border: 1px solid #7d7d7d;
   border-radius: 2px;
   text-transform: none;
+  font-weight: normal;
+  margin: 1% 0 0 0;
 }
 
 .main__article_form_input::placeholder {
