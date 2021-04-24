@@ -97,12 +97,17 @@ main.container-main {
                 }
             }
             &_submit {
-                font-size: 1.5rem;
+                font-size: 1.2rem;
                 font-weight: bold;
                 letter-spacing: 1px;
                 border: 2px solid $Gray;
                 border-radius: 0.35rem;
                 transition: 0.5s ease;
+                
+                padding: 2% 3%;
+                margin: 5% 0 0 0;
+                align-self: center;
+                justify-self: center;
 
                 &:hover {
                     cursor: pointer;
