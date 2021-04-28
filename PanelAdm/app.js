@@ -91,7 +91,13 @@ function Teksty() {
         option1: document.createElement("option"),
         option2: document.createElement("option"),
         option3: document.createElement("option"),
-        option4: document.createElement("option")
+        option4: document.createElement("option"),
+        option5: document.createElement("option"),
+        option6: document.createElement("option"),
+        option7: document.createElement("option"),
+        option8: document.createElement("option"),
+        option9: document.createElement("option"),
+        option10: document.createElement("option"),
     };
 
     
@@ -111,6 +117,12 @@ function Teksty() {
     options.option2.textContent = "2";
     options.option3.textContent = "3";
     options.option4.textContent = "4";
+    options.option5.textContent = "5";
+    options.option6.textContent = "6";
+    options.option7.textContent = "7";
+    options.option8.textContent = "8";
+    options.option9.textContent = "9";
+    options.option10.textContent = "10";
 
     // clearing function
     clearing(article);
@@ -124,7 +136,12 @@ function Teksty() {
     select.appendChild(options.option2);
     select.appendChild(options.option3);
     select.appendChild(options.option4);
-
+    select.appendChild(options.option5);
+    select.appendChild(options.option6);
+    select.appendChild(options.option7);
+    select.appendChild(options.option8);
+    select.appendChild(options.option9);
+    select.appendChild(options.option10);
 }
 
 function Produkty() {
