@@ -94,6 +94,8 @@ function Teksty() {
         option4: document.createElement("option")
     };
 
+    
+
     // select
     select.className = "main__article_item2_Teksty_select";
     select.name = "numbers";
@@ -144,7 +146,7 @@ function Produkty() {
 
     let container = document.getElementById("masno");
 
-    container.firstChild ? clearing(container): NULL;
+    container.firstChild ? clearing(container): null;
 
     text.text1.textContent = "Nazwa";
     text.text2.textContent = "Cena";
@@ -165,6 +167,7 @@ function Produkty() {
 
     input.input2.type = "number";
     input.input4.type = "file";
+    input.input4.id = "fajel";
     input.input5.type = "submit";
 
     // Styling
@@ -221,4 +224,3 @@ function Uzytkownicy() {
     text.className = "main__article_item2_Teksty";
     text.textContent = "Użytkownicy tacy o";
 }
-
