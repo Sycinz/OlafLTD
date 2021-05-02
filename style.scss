@@ -12,33 +12,6 @@ body, html {
     font-size: 1.1rem;
 }
 
-nav {
-    height: 8vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-
-    margin: 1% 2.5% 1% 2.5%;
-
-    font-size: 0.9rem; //0.8
-    color: $blue;
-
-    .nav__text {
-        order: 5;
-        font-size: 1.1rem;
-        font-weight: bold;
-        color: $Gray2;
-
-        padding: 10px 8px;
-    }
-}
-
-#nav_logo {
-    margin: 0 1% 0 0;
-} 
 
 input {
     background: transparent;
@@ -300,6 +273,7 @@ section.container {
 }
 
 .wrapper {
+
     order: 2;
 }
 .mobile-wrapper {
@@ -387,16 +361,14 @@ section.container {
     }
 }
 
-@media only screen and (max-width: 1280px) {
+/*@media only screen and (max-width: 1280px) {
 
     body, html {
-        width: 100vw;
-        height: 100vh;
-        overflow-x: auto;
-        overflow-y: hidden;
+        overflow-x: hidden;
     }
 
     section.container {
+        overflow-x: hidden;
         width: 1150px;
         height: 1188px;
     }
@@ -486,4 +458,4 @@ section.container {
             }
         }
     }
-}
+} */
