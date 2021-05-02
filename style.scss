@@ -375,7 +375,7 @@ section.container {
     }
 }
 
-@media only screen and (max-width: 1280px) {
+// @media only screen and (max-width: 1280px) {
 section.container {
     width: 1150px;
     height: 1188px;
@@ -410,44 +410,44 @@ section.container {
     width: 47.5%;
     font-size: 0.75em;
   }
-}
+// }
 
-@media only screen and (max-height: 720) {
-    section.container {
-        width: 1150px;
-        height: 1188px;
-      }
-      nav {
-        width: 1920px;
-        height: 86.4px;
-      }
-      .item, .item1, .item2 {
-        width: 1150px;
-        height: 310px;
-      }
-      .item1__photo {
-        height: 310px;
-      }
-      #icon {
-        width: 357.4px;
-        height: 88.5px;
-      }
-      footer.container {
-        height: 110px;
-        margin: 8vw 0 0 0;
-      }
-      footer.container .container__item1 {
-        height: 12vh;
-        width: 100%;
-      }
-      footer.container .container__item1_logo {
-        margin: 0 0 0 10%;
-      }
-      footer.container .container__item1_text {
-        width: 47.5%;
-        font-size: 0.75em;
-      }
-}
+// @media only screen and (max-height: 720) {
+//     section.container {
+//         width: 1150px;
+//         height: 1188px;
+//       }
+//       nav {
+//         width: 1920px;
+//         height: 86.4px;
+//       }
+//       .item, .item1, .item2 {
+//         width: 1150px;
+//         height: 310px;
+//       }
+//       .item1__photo {
+//         height: 310px;
+//       }
+//       #icon {
+//         width: 357.4px;
+//         height: 88.5px;
+//       }
+//       footer.container {
+//         height: 110px;
+//         margin: 8vw 0 0 0;
+//       }
+//       footer.container .container__item1 {
+//         height: 12vh;
+//         width: 100%;
+//       }
+//       footer.container .container__item1_logo {
+//         margin: 0 0 0 10%;
+//       }
+//       footer.container .container__item1_text {
+//         width: 47.5%;
+//         font-size: 0.75em;
+//       }
+// }
 /*@media only screen and (max-width: 1280px) {
 
     body, html {
