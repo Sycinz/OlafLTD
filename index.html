@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="chrome">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OlafLTD</title>
     <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon">
@@ -16,20 +16,27 @@
         <img id="nav_logo"src="images/Logo1.png" width="160px" height="42px" alt="">
 
         <div class="wrapper">
-            |<input type="button" onclick="location.href='O firmie/index.html'" class="list" value="O firmie" />|
-            <input type="button" onclick="location.href='Produkty/index.html'" class="list" value="Produkty" />|
-            <input type="button" onclick="location.href='Maszyny/index.html'" class="list" value="Maszyny" />|
-            <input type="button" onclick="location.href='Serwis/index.html'" class="list" value="Serwis" />|
+            |<input type="button" onclick="location.href='O firmie/index.html'" class="list" value="O firmie" />
+            |
+            <input type="button" onclick="location.href='Produkty/index.html'" class="list" value="Produkty" />
+            |
+            <input type="button" onclick="location.href='Maszyny/index.html'" class="list" value="Maszyny" />
+            |
+            <input type="button" onclick="location.href='Serwis/index.html'" class="list" value="Serwis" />
+            |
             <input type="button" onclick="location.href='Kontakt/index.html'" class="list" value="Kontakt" />
+            |
+            <form class="list_form" action="index.php" method="post">
+                <input name="lang" type="button" class="list" value="PL" id="icon1" />
+                |<input name="lang" type="button" class="list" value="EN" id="icon2" />
+            </form>
+    
+            <div class="line1">|</div>
+            <input type="button" onclick="location.href='/Logowanie/index.html'" class="list__login" value="Zaloguj się" />
+            <div class="line2">|</div>
+            <input type="button" onclick="location.href='/Rejestracja/index.html'" class="list__login" value="Zarejestruj się" />
+            <div class="line3">|</div>
         </div>
-
-        <form class="list_form" action="index.php" method="post">
-            |<input name="lang" type="button" class="list" value="PL" id="icon1" />
-            |<input name="lang" type="button" class="list" value="EN" id="icon2" />
-        </form>
-
-        |<input type="button" onclick="location.href='/Logowanie/index.html'" class="list__login" value="Zaloguj się" />
-        |<input type="button" onclick="location.href='/Rejestracja/index.html'" class="list__login" value="Zarejestruj się" />|
 
         <!-- <div class="nav__text">|</div> -->
 

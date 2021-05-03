@@ -31,6 +31,12 @@ nav .nav__text {
   padding: 10px 8px;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 #nav_logo {
   filter: opacity(1);
   margin: 0 1rem 0 0;
@@ -129,7 +135,7 @@ footer.container .container__item1_text {
   justify-content: center;
   height: 100%;
   width: 47.5%;
-  font-size: 0.8em;
+  font-size: 0.8rem;
   margin-right: 1%;
 }
 
