@@ -106,18 +106,14 @@ input.list:hover {
 }
 
 footer.container {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 12vh;
+  display: grid;
+  grid-template: 7fr 0.3fr / 1fr;
+  align-items: end;
+  min-height: 10%;
   width: 60%;
 }
 
 footer.container .container__item1 {
-  position: absolute;
-  bottom: 15%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -127,6 +123,7 @@ footer.container .container__item1 {
   background: #d7d7d7;
   width: 100%;
   height: 100%;
+  padding: 3% 0;
 }
 
 footer.container .container__item1_logo {
@@ -148,10 +145,8 @@ footer.container .container__item1_text {
 
 footer.container .container__item2 {
   display: flex;
-  position: absolute;
-  bottom: 0;
   width: 100%;
-  height: 3vh;
+  height: 100%;
   justify-content: center;
   align-items: center;
   font-size: 0.8em;
@@ -188,6 +183,7 @@ section.container {
   flex-direction: column;
   align-items: center;
   background: white;
+  margin: 0 0 0 0;
 }
 
 .item1 {

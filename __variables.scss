@@ -125,19 +125,14 @@ input {
 }
 
 footer.container {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template: 7fr 0.3fr / 1fr;
+    align-items: end;
 
-    height: 12vh;
+    min-height: 10%;
     width: 60%;
 
     .container__item1 {
-        position: absolute;
-        bottom: 15%;
-
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -149,6 +144,7 @@ footer.container {
 
         width: 100%;
         height: 100%;
+        padding: 3% 0;
 
         &_logo {
             margin-left: 20%;
@@ -169,11 +165,9 @@ footer.container {
     }
     .container__item2 {
         display: flex;
-        position: absolute;
-        bottom: 0;
 
         width: 100%;
-        height: 3vh;
+        height: 100%;
         justify-content: center;
         align-items: center;
 
