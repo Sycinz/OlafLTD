@@ -48,7 +48,7 @@ nav {
 #nav_logo {
     filter: opacity(1);
     margin: 0 1rem 0 0;
-    
+    object-fit: contain;
 
     &:hover {
         cursor: pointer;
@@ -70,14 +70,12 @@ input {
 
     &.list {
         background: transparent;
-        order: 2;
         border: none;
         transition: filter 0.5s ease;
 
         &__login {
             border: none;
             background: transparent;
-            order: 5;
             transition: filter 0.3s ease;
 
             &:hover {
@@ -100,7 +98,6 @@ input {
 }
 
 #icon1 {
-    order: 3;
     padding: 5px 15px;
     margin-right: 10px;
     background-image: url("../images/poland.png");
@@ -110,39 +107,11 @@ input {
 }
 
 #icon2 {
-    order: 4;
     padding: 5px 18px;
     background-image: url("../images/english.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 25px 15px;
-}
-
-#icon3 {
-    order: 6;
-    padding: 15px 18px;
-    background-image: url("../images/phone-icon2.png");
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: 30px 30px;
-}
-#icon4 {
-    order: 8;
-    padding: 15px 18px;
-    margin-left: 10px;
-    background-image: url("../images/letter-icon2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 52.5px 28px;
-}
-
-#icon-text1 {
-    order: 6;
-    padding: 0 15px 0 0;
-    font-size: 1em;
-}
-#icon-text2 {
-    order: 9;
 }
 
 footer.container {
@@ -170,6 +139,7 @@ footer.container {
         &_logo {
             margin-left: 20%;
             opacity: 1;
+            object-fit: contain;
         }
         &_text {
             display: flex;

@@ -14,10 +14,23 @@
 
     <nav>
         <img id="nav_logo"src="images/Logo1.png" width="160px" height="42px" alt="">
+
+        <div class="wrapper">
+            |<input type="button" onclick="location.href='O firmie/index.html'" class="list" value="O firmie" />|
+            <input type="button" onclick="location.href='Produkty/index.html'" class="list" value="Produkty" />|
+            <input type="button" onclick="location.href='Maszyny/index.html'" class="list" value="Maszyny" />|
+            <input type="button" onclick="location.href='Serwis/index.html'" class="list" value="Serwis" />|
+            <input type="button" onclick="location.href='Kontakt/index.html'" class="list" value="Kontakt" />
+        </div>
+
         <form class="list_form" action="index.php" method="post">
             |<input name="lang" type="button" class="list" value="PL" id="icon1" />
             |<input name="lang" type="button" class="list" value="EN" id="icon2" />
         </form>
+
+        |<input type="button" onclick="location.href='/Logowanie/index.html'" class="list__login" value="Zaloguj się" />
+        |<input type="button" onclick="location.href='/Rejestracja/index.html'" class="list__login" value="Zarejestruj się" />|
+
         <!-- <div class="nav__text">|</div> -->
 
         <!-- <div id="icon3">
@@ -29,35 +42,14 @@
         <div id="icon-text2">
         olafltd@gmail.com
         </div> -->
-
-        <div class="list__login_text1">|</div><input type="button" onclick="location.href='/Logowanie/index.html'" class="list__login" value="Zaloguj się" />
-        <div class="list__login_text2">|</div><input type="button" onclick="location.href='/Rejestracja/index.html'" class="list__login" value="Zarejestruj się" /><div class="list__login_text3">|</div>
-
-        <div class="wrapper">
-            |<input type="button" onclick="location.href='O firmie/index.html'" class="list" value="O firmie" />|
-            <input type="button" onclick="location.href='Produkty/index.html'" class="list" value="Produkty" />|
-            <input type="button" onclick="location.href='Maszyny/index.html'" class="list" value="Maszyny" />|
-            <input type="button" onclick="location.href='Serwis/index.html'" class="list" value="Serwis" />|
-            <input type="button" onclick="location.href='Kontakt/index.html'" class="list" value="Kontakt" />
-        </div>
     </nav>
-
-    <main>
-        <div class="mobile-wrapper">
-            <input type="button" onclick="location.href='O firmie/index.html'" class="list" value="O firmie" />|
-            <input type="button" onclick="location.href='Produkty/index.html'" class="list" value="Produkty" />|
-            <input type="button" onclick="location.href='Maszyny/index.html'" class="list" value="Maszyny" />|
-            <input type="button" onclick="location.href='Serwis/index.html'" class="list" value="Serwis" />|
-            <input type="button" onclick="location.href='Kontakt/index.html'" class="list" value="Kontakt" />|
-        </div>
-    </main>
-
+    
     <section class="container">
         <div class="item1">
                 <img class="item1__photo" src="images/AdobeStock_202237980.jpeg" alt="OlafLTD logo" width="100%" height="100%">
                 <div class="itemcontainer1">
                     <div id="itemcontainer">
-                        <img src="images/Logo3.png" width="82%" height="45%" alt="Olafltd logo" id="icon">
+                        <img src="images/Logo3.png" alt="Olafltd logo" id="icon">
                         <!-- <img src="images/Logo1.png" width="82%" height="45%" alt="Olafltd logo" id="icon"> -->
                         <div id="item__text">ZADBAMY O TWÓJ SYSTEM LASEROWY JAK NIKT INNY</div>
                     </div>

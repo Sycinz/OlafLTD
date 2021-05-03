@@ -24,67 +24,6 @@ input {
     padding: 0px 8px;
 
     text-transform: uppercase;
-
-}
-
-.list_form {
-    order: 3;
-}
-
-.list__login_text1 {
-    order: 4;
-}
-.list__login_text2 {
-    order: 5;
-}
-.list__login_text3 {
-    order: 6;
-}
-
-#icon {
-    position: absolute;
-    left: 0;
-    top: 0;
-    align-self: center;
-    margin: 0 0 2% 0;
-}
-
-#icon1 {
-    order: 3;
-    padding: 5px 15px;
-    margin-right: 10px;
-    background-image: url("images/poland.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 25px 15px;
-}
-
-#icon2 {
-    order: 4;
-    padding: 5px 18px;
-    background-image: url("images/english.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 25px 15px;
-}
-
-#icon3 {
-    order: 6;
-    padding: 15px 18px;
-    background-image: url("images/phone-icon2.png");
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: 30px 30px;
-}
-#icon4 {
-    order: 8;
-    padding: 15px 18px;
-    margin-left: 10px;
-    background-color: transparent;
-    background-image: url("images/letter-icon2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 52.5px 28px;
 }
 
 section.container {
@@ -253,14 +192,6 @@ section.container {
     align-items: center;
 }
 
-#icon-text1 {
-    font-size: 0.9rem;
-    order: 6;
-}
-#icon-text2 {
-    order: 9;
-    font-size: 0.9rem;
-}
 
 #item__text {
     position: absolute;
@@ -286,10 +217,15 @@ section.container {
     align-items: center;
 }
 
-.wrapper {
-
-    order: 2;
+#icon {
+    position: absolute;
+    top: 10%;
+    left: -6%;
+    width: 30%;
+    height: 100%;
+    object-fit: contain;
 }
+
 .mobile-wrapper {
     width: 0;
     height: 0;
