@@ -109,7 +109,7 @@ footer.container {
   display: grid;
   grid-template: 7fr 0.3fr / 1fr;
   align-items: end;
-  min-height: 10%;
+  height: 1rem;
   width: 60%;
 }
 
@@ -139,8 +139,9 @@ footer.container .container__item1_text {
   justify-content: center;
   height: 100%;
   width: 47.5%;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin-right: 1%;
+  color: #6f6f6f;
 }
 
 footer.container .container__item2 {
@@ -182,7 +183,7 @@ section.container {
   width: 60%;
   flex-direction: column;
   align-items: center;
-  background: white;
+  background: transparent;
   margin: 0 0 0 0;
 }
 
@@ -340,10 +341,10 @@ section.container {
 
 #item__text {
   position: absolute;
-  font-size: 0.7rem;
-  width: 50%;
+  font-size: 1rem;
+  width: 70%;
   font-weight: 600;
-  left: 34%;
+  left: 10%;
   top: 33%;
 }
 
