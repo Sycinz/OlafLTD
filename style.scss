@@ -10,6 +10,8 @@ body, html {
     justify-content: space-around;
     align-items: center;
     font-size: 1.1rem;
+
+    overflow-y: scroll;
 }
 
 input {
@@ -27,12 +29,13 @@ input {
 
 section.container {
     display: flex;
-    height: 110vh;
+    height: 120vh;
     width: 60%;
     flex-direction: column;
     align-items: center;
     background: transparent;
     margin: 0 0 0 0;
+    overflow: hidden;
 }
 
 .item1 {
@@ -68,7 +71,7 @@ section.container {
 }
 .item {
     display: grid;
-    grid-template: 1fr / 0.6fr 1fr;
+    grid-template: 0.6fr 1fr / 1fr;
     justify-content: space-between;
     align-items: center;
 
@@ -78,20 +81,19 @@ section.container {
     border: 0.5px $Gray2 solid;
     background: transparent;
 
-    height: 25vh;
-    width: 100%;
-    margin-bottom: 2%;
+    width: 1150px;
+    min-height: 310px;
+    margin: 0 0 2% 0;
     padding: 0;
 
         &__container {
             position: absolute;
             z-index: 5;
-            display: flex;
-            flex-direction: column;
-            overflow: auto;
-
-            height: 100%;
-            width: 100%;
+            display: grid;
+            grid-template: 0.2fr 1fr / 1fr;
+            
+            min-height: 100%;
+            min-width: 100%;
             padding: 1.5%;
         }
         &__header {
@@ -102,6 +104,7 @@ section.container {
         }
 
         &__text {
+            overflow: auto;
             width: 45%;
             font-size: 0.8em;
         }
@@ -295,7 +298,7 @@ section.container {
 
     footer.container {
         height: 110px;
-        margin: 8vh 0 0 0;
+        margin: 0 0 0 0;
 
         .container__item1 {
             height: 12vh;
@@ -313,7 +316,7 @@ section.container {
 
 section.container {
     width: 1150px;
-    height: 1188px;
+    height: auto;
   }
   nav {
     width: 1920px;
@@ -332,7 +335,7 @@ section.container {
   }
   footer.container {
     height: 110px;
-    margin: 8vw 0 0 0;
+    margin: 1% 0 0 0;
   }
   footer.container .container__item1 {
     height: 12vh;
@@ -342,6 +345,5 @@ section.container {
     margin: 0 0 0 10%;
   }
   footer.container .container__item1_text {
-    width: 47.5%;
     font-size: 0.75em;
   }

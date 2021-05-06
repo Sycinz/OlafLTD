@@ -138,9 +138,9 @@ footer.container .container__item1_text {
   align-items: flex-start;
   justify-content: center;
   height: 100%;
-  width: 47.5%;
+  width: 12%;
   font-size: 0.9rem;
-  margin-right: 1%;
+  margin: 0 15% 0 0;
   color: #6f6f6f;
 }
 
