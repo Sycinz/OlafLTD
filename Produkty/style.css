@@ -109,7 +109,7 @@ footer.container {
   display: grid;
   grid-template: 7fr 0.3fr / 1fr;
   align-items: end;
-  height: 1rem;
+  height: auto;
   width: 60%;
 }
 
@@ -215,6 +215,11 @@ main.container-main {
   margin: 0 0 10% 10%;
   border: 0.2rem solid black;
   background: #3737b4;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 5% 0 0 0;
 }
 
 .wrapper {

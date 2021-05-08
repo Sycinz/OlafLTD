@@ -109,7 +109,7 @@ footer.container {
   display: grid;
   grid-template: 7fr 0.3fr / 1fr;
   align-items: end;
-  height: 1rem;
+  height: auto;
   width: 60%;
 }
 

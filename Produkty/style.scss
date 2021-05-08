@@ -65,6 +65,20 @@ main.container-main {
     margin: 0 0 10% 10%;
     border: 0.2rem solid black;
     background: rgb(55, 55, 180);
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5% 0 0 0;
+
+    &_listh {
+        
+    }
+
+    &_list {
+
+    }
 }
 
 .wrapper {
