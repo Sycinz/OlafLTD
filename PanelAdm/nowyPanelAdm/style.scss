@@ -26,7 +26,7 @@ body, html {
 .container {
     margin: 0.2rem 0 0 0;
     display: grid;
-    grid-template: 8% 1.5% 50% 1.5% 50% / 1fr;
+    grid-template: 8% 1.5% 50% 1.5% 50% 1.5% 50% 1.5% 50% 1.5% 50% 1.5% / 1fr;
     grid-gap: 1%;
     min-height: 100%;
     width: 50vw;
@@ -55,6 +55,8 @@ body, html {
         background: white;
         border-radius: 0.4rem;
         border: 2px solid rgba(184, 184, 184, 1);
+        padding: 3%;
+        color: gray;
     }
     &_item2 {
         display: flex;
@@ -72,6 +74,65 @@ body, html {
             text-align: left;
             flex-direction: column;
             width: 100%;
+
+            &_select {
+                width: 92%;
+                border-radius: 0.1rem;
+                border: 2px solid rgba(184, 184, 184, 1);
+                padding: 0.5% 0;
+                color: rgb(128, 128, 128);
+                font-size: 1rem;
+                padding: 1% 0 1% 0.5%;
+                margin: 0 0 0.5% 0;
+            }
+        }
+
+        &_container2 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            &_file {
+                padding: 1% 0 0 0;
+                width: 42%;
+            }
+
+            &_input {
+                width: 40%;
+                border-radius: 0.1rem;
+                border: 2px solid rgba(184, 184, 184, 1);
+                padding: 0.5% 0;
+                color: rgb(128, 128, 128);
+                font-size: 1rem;
+                padding: 1% 0 1% 0.5%;
+
+                &::placeholder {
+                    color: $Gray;
+                }
+            }
+
+            &_input2 {
+                background: white;
+                width: 46%;
+                border-radius: 0.1rem;
+                border: 2px solid rgba(184, 184, 184, 1);
+                color: rgb(128, 128, 128);
+                font-size: 1rem;
+                padding: 1% 0 1% 0.5%;
+                &::placeholder {
+                    color: $Gray;
+                }
+
+                &:checked {
+                    background: blue;
+                }
+            }
+        }
+
+        &_container3 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
         }
 
         &_input {
@@ -82,6 +143,8 @@ body, html {
             color: rgb(128, 128, 128);
             font-size: 1rem;
             padding: 1% 0 1% 0.5%;
+            margin: 0 0 0.5% 0;
+
             &::placeholder {
                 color:rgba(184, 184, 184, 0.705);
             }
@@ -107,7 +170,7 @@ textarea {
     padding: 0.5% 0.5%;
     color: rgb(128, 128, 128);
     width: 90%;
-    height: 70%;
+    height: 50%;
     border-radius: 0.1rem;
     border: 2px solid rgba(184, 184, 184, 1);
     resize: none;
