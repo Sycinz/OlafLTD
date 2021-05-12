@@ -14,8 +14,8 @@ body, html {
   display: grid;
   grid-template: 8% 1.5% 50% 1.5% 50% 1.5% 50% 1.5% 50% 1.5% 50% 1.5% / 1fr;
   grid-gap: 1%;
-  min-height: 100%;
-  width: 50vw;
+  height: 1296px;
+  width: 960px;
 }
 
 .navbar {
