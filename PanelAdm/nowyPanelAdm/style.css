@@ -55,6 +55,7 @@ body, html {
   border: 2px solid #b8b8b8;
   padding: 3%;
   color: gray;
+  overflow-y: auto;
 }
 
 .main__article_item2 {

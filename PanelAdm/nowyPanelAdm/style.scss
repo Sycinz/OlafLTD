@@ -57,6 +57,7 @@ body, html {
         border: 2px solid rgba(184, 184, 184, 1);
         padding: 3%;
         color: gray;
+        overflow-y: auto;
     }
     &_item2 {
         display: flex;
