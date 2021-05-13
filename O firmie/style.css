@@ -110,7 +110,7 @@ footer.container {
   grid-template: 7fr 0.3fr / 1fr;
   align-items: end;
   height: auto;
-  width: 60%;
+  width: 1141px;
 }
 
 footer.container .container__item1 {
@@ -178,27 +178,114 @@ main.container-main {
 }
 
 .main__article {
-  width: 60%;
-  min-height: 100vh;
+  width: 1141px;
+  min-height: 2280px;
   background: #d7d7d7;
-  color: white;
+  color: #7d7d7d;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__article_grid {
   display: grid;
-  grid-template: 0.4fr 1fr / 1fr;
+  grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+  grid-gap: 6% 4%;
+  place-items: center;
+  place-content: center;
+  margin: 8% 0 0 0;
+  padding: 0 0 0 0.5%;
+  width: 80%;
+  height: auto;
+  align-self: center;
+}
+
+.main__article_grid_item {
+  width: 100%;
+  object-fit: cover;
+  align-self: center;
+  justify-self: center;
+}
+
+.main__article_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 15rem;
+}
+
+.main__article_container_item1 {
+  margin: 5% 0 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.main__article_container_item1:not(:last-child) {
+  padding: 2% 0 5% 10%;
+}
+
+.main__article_container_item1_wrapper2 {
+  display: grid;
+  grid-template: 1fr / 1.2fr 1.2fr;
+  height: auto;
+  width: 70%;
+  grid-gap: 5%;
+}
+
+.main__article_container_item1_text {
+  font-size: 2rem;
+  transform: translate(120%, -2%);
+}
+
+.main__article_container_item1_wrapper {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+.main__article_container_item1_wrapper_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main__article_container_item1_wrapper_line {
+  width: 7%;
+  height: 4px;
+  background: #3838a7;
+  margin: 0 0 0 12%;
+}
+
+.main__article_container_item1_wrapper_square {
+  position: absolute;
+  left: 12%;
+  width: 18px;
+  height: 18px;
+  background: #3838a7;
+}
+
+.main__article_container_item1_wrapper_text {
+  color: #6b6b6b;
+  padding: 1.5% 0 1.5% 1.5%;
+  font-size: 1.2rem;
+  background: silver;
+  width: 100%;
+  height: 100%;
 }
 
 .main__article_text {
-  width: 100%;
-  height: 100%;
   font-size: 2rem;
-  color: #7d7d7d;
-  padding: 2% 5% 2% 5%;
+  color: gray;
+  padding: 5% 5% 2% 10%;
 }
 
 .main__article_banner {
   object-fit: cover;
   object-position: 0 -4rem;
   width: 100%;
-  height: 25vh;
+  height: 324px;
 }
 
 .wrapper {

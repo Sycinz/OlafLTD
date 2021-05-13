@@ -24,25 +24,114 @@ main.container-main {
 }
 
 .main__article {
-    width: 60%;
-    min-height: 100vh;
+    width: 1141px;
+    min-height: 2280px;
     background: $lightGray;
-    color: white;
-    display: grid;
-    grid-template: 0.4fr 1fr / 1fr;
-    
-    &_text {
+    color: $Gray2;
+    display: flex;
+    flex-direction: column;
+
+    &_grid {
+        display: grid;
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        grid-gap: 6% 4%;
+        place-items: center;
+        place-content: center;
+
+        margin: 8% 0 0 0;
+        padding: 0 0 0 0.5%;
+        width: 80%;
+        height: auto;
+        align-self: center;
+
+        &_item {
+            width: 100%;
+            object-fit: cover;
+            align-self: center;
+            justify-self: center;
+        }
+    }
+
+    &_container {
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        height: 100%;
+        height: 15rem;
+
+        &_item1 {
+            margin: 5% 0 0 5%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+
+            &:not(:last-child) {
+                padding: 2% 0 5% 10%;
+            }
+
+            &_wrapper2 {
+                display: grid;
+                grid-template: 1fr / 1.2fr 1.2fr;
+                height: auto;
+                width: 70%;
+                grid-gap: 5%;
+            }
+
+            &_text {
+                font-size: 2rem;
+                transform: translate(120%, -2%);
+            }
+
+            &_wrapper {
+                display: flex;
+                align-items: center;
+                max-width: 100%;
+
+                &_image {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+                &_line {
+                    width: 7%;
+                    height: 4px;
+                    background: rgb(56, 56, 167);
+                    margin: 0 0 0 12%;
+                }
+
+                &_square {
+                    position: absolute;
+                    left: 12%;
+                    width: 18px;
+                    height: 18px;
+                    background:rgb(56, 56, 167);
+                }
+                &_text {
+                    color:rgb(107, 107, 107);
+                    padding: 1.5% 0 1.5% 1.5%;
+                    font-size: 1.2rem;
+                    background: rgb(192, 192, 192);
+                    width: 100%;
+                    height: 100%;
+
+                }
+            }
+            
+        }
+    }
+
+    &_text {
         font-size: 2rem;
-        color: $Gray2;
-        padding: 2% 5% 2% 5%;
+        color: gray;
+        padding: 5% 5% 2% 10%;
+        
     }
     &_banner {
         object-fit: cover;
         object-position: 0 -4rem;
         width: 100%;
-        height: 25vh;
+        height: 324px;
     }
 }
 
