@@ -50,6 +50,7 @@ body, html {
 }
 
 .main__article_item1 {
+  font-size: 0.8rem;
   background: white;
   border-radius: 0.4rem;
   border: 2px solid #b8b8b8;
