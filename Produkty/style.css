@@ -110,7 +110,7 @@ footer.container {
   grid-template: 7fr 0.3fr / 1fr;
   align-items: end;
   height: auto;
-  width: 1141px;
+  width: 1152px;
 }
 
 footer.container .container__item1 {
@@ -178,7 +178,7 @@ main.container-main {
 
 .main__container {
   color: #171717;
-  height: 1100px;
+  height: auto;
   width: 1142px;
   padding: 1% 1% 2% 4%;
   display: flex;

@@ -23,9 +23,9 @@ main.container-main {
 }
 
 .main__article {
-    width: 60%; 
-    height: 120vh;
-    padding: 0 0 1.5% 0;
+    width: 1152px; 
+    height: auto;
+    padding: 0 0 7rem 0;
 
     display: grid;
     grid-template: 0.7fr 1.3fr / repeat(2, 1fr);
@@ -43,7 +43,7 @@ main.container-main {
     &_item1 {
         width: 80%;
         height: 100%;
-        padding: 0.5% 7%;
+        padding: 3% 7%;
 
         display: flex;
         flex-direction: column;
@@ -96,7 +96,7 @@ main.container-main {
     &_form {
         width: 80%;
         height: 1.5fr;
-        padding: 5% 4% 0 4%;
+        padding: 5% 4% 1.5vw 4%;
 
         display: flex;
         flex-direction: column;
@@ -152,7 +152,7 @@ main.container-main {
                     padding: 2% 2% 2% 2%;
 
                     width: 100%;
-                    height: 16vh;
+                    height: 10rem;
                     resize: none;
                 }
                 &4 {
