@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Logowanie</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&  display=swap" rel="stylesheet">
 </head>
@@ -14,10 +14,31 @@
     
 <main class="container-main">
     <nav>
-        <img onclick="location.href='../index.html'" id="nav_logo"src="../images/Logo1.png" width="160px" height="42px" alt="">
-        <input type="button" class="list" value="" id="icon1" />
-        <input type="button" class="list" value="" id="icon2" />
-        <div class="nav__text">|</div>
+        <img id="nav_logo"src="../images/Logo1.png" width="16%" height="100%" alt="" onclick="location.href='../index.html'">
+
+        <div class="wrapper">
+            <input type="button" onclick="location.href='../O firmie/index.html'" style="margin-right: 2%"class="list" value="O firmie" />
+            
+            <input type="button" onclick="location.href='../Produkty/index.html'" style="margin-right: 2%"class="list" value="Produkty" />
+            
+            <input type="button" onclick="location.href='../Maszyny/index.html'" style="margin-right: 2%"class="list" value="Maszyny" />
+            
+            <input type="button" onclick="location.href='../Serwis/index.html'" style="margin-right: 2%"class="list" value="Serwis" />
+            
+            <input type="button" onclick="location.href='../Kontakt/index.html'" class="list" value="Kontakt" />
+            
+            <form  class="list_form" action="index.php" method="post">
+                <input name="lang" type="button" class="list" value="PL" id="icon1" />
+                
+                <input name="lang" type="button" class="list" value="EN" id="icon2" />
+            </form>
+    
+            <input  type="button" onclick="location.href='/Logowanie/index.html'" class="list__login" value="Zaloguj się" />
+            
+            <input  type="button" onclick="location.href='/Rejestracja/index.html'" class="list__login" value="Zarejestruj się" />
+        </div>
+
+        <!-- <div class="nav__text">|</div> -->
 
         <!-- <div id="icon3">
         </div>
@@ -28,14 +49,6 @@
         <div id="icon-text2">
         olafltd@gmail.com
         </div> -->
-
-        <div class="wrapper">
-            <input type="button" onclick="location.href='../O firmie/index.html'" class="list" value="|  O firmie  |" />
-            <input type="button" onclick="location.href='../Produkty/index.html'" class="list" value="|  Produkty  |" />
-            <input type="button" onclick="location.href='../Maszyny/index.html'" class="list" value="|  Maszyny  |" />
-            <input type="button" onclick="location.href='../Serwis/index.html'" class="list" value="|  Serwis  |" />
-            <input type="button" onclick="location.href='../Kontakt/index.html'" class="list" value="|  Kontakt  |" />
-        </div>
     </nav>
 
     <main>
@@ -67,14 +80,12 @@
     <footer class="container">
         <div class="container__item1">
             <img src="../images/Logo1.png"width="140px" height="35px"alt=""class="container__item1_logo">
-            <div class="container__item1_text">
-                <h3>OLAF LTD JUSTYNA KONCZUR</h3>
-                05-500 Piaseczno, ul. Kniaziewicza 45240<br/>
-                tel. +48 513106080, e-mail:olafltd@gmail.com
-            </div>    
+            <a href="" class="container__item1_text">
+                Polityka prywatności
+            </a>   
         </div>
     
-            <div class="container__item2">designed by OPT (OurProjectTeam)</div>
+            <div class="container__item2">designed</div>
         </footer>
     </section>
 
