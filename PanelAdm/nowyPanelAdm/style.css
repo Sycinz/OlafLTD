@@ -166,6 +166,27 @@ body, html {
   cursor: pointer;
 }
 
+.nest {
+  list-style: none;
+  user-select: none;
+}
+
+.nest:hover {
+  cursor: pointer;
+}
+
+.nest::before {
+  content: "\25B6";
+  color: gray;
+  margin-right: 6px;
+}
+
+.nestdown::before, .nestdown {
+  content: "\25B6";
+  color: gray;
+  margin-right: 6px;
+}
+
 textarea {
   font-family: Lato;
   font-size: 1rem;
