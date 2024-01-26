@@ -1,3 +1,3 @@
 # OlafLTD
 
-[/grafika.png]
+![](/grafika.png)
